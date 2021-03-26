@@ -38,7 +38,7 @@ int main()
 	double dx = 7.7;
 	double dy = 9.9;
 	swap_v (dx, dy); //This call compiled. They were not actually swapped.
-	swap_r(dx, dy);  //This call can't compiled¡£ Because the type doesn't match.
+	swap_r(dx, dy);  //This call can't compiledÂ¡Â£ Because the type doesn't match.
 	swap_v (7.7, 9.9); //This call compiled. They were not actually swapped.
 	swap_r (7.7, 9.9); //This call can't compiled. Because the type doesn't match.
 	cout << "x = " << x << endl;
