@@ -106,11 +106,13 @@ try {
     return 0;
 
 }
-catch (exception& e) {
+catch (exception& e)
+{
     cerr << "Exception! " << e.what() << endl;
     return 1;
 }
-catch (...) {
+catch (...)
+{
     cerr << "Some exceptions! " << endl;
     return 2;
 }
