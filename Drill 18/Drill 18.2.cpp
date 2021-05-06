@@ -42,6 +42,7 @@ try {
 
     //4.c. Call f() with vv as its argument.
     f(vv);
+    return 0;
 }
 catch (exception& e)
 {
