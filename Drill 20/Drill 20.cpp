@@ -3,6 +3,7 @@
 #include <array>
 #include <vector>
 #include <list>
+#include <algorithm>
 
 template<typename T>
 void print(T& t)
