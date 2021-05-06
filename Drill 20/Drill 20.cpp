@@ -90,6 +90,7 @@ try {
         std::cout << "The value 27 is found in the list at the position: " << std::distance(l2.begin(), lvec) << std::endl;
     else
         std::cout << "The value 27 is not found in the list!" << std::endl;
+    return 0;
 }
 catch (std::exception& e)
 {
