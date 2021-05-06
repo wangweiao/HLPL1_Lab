@@ -50,6 +50,7 @@ try {
 
     //4.c. Call f() with aa as its argument.
     f(aa, 10);
+    return 0;
 }
 catch (exception& e)
 {
