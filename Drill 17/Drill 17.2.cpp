@@ -65,8 +65,11 @@ try {
     for (int i = 0; i < 10; ++i)
         p2[i] = p1[i];
     print_array(cout, p2, 10);
+    
+    delete p1;
+    delete p2;
 
-    //13. Repeat 10¨C12 using a vector rather than an array.
+    //13. Repeat 10Â¨C12 using a vector rather than an array.
     //13.10. Allocate a vector of ten ints, and assign its address to a variable p2.
     vector<int> v10 = { 1, 2, 4, 8, 16, 32, 64, 128, 256, 512 };
     p1 = &v10[0];
